@@ -68,13 +68,13 @@
     };
     var board = createNewBoard();
     while (true) {
-        board = playerMove(board, player1, prompt(`${printableBoard(board)} Player 1 what is your move?`));
+        board = playerMove(board, player1, prompt(`${printableBoard(board)}Player 1 what is your move?`));
         if (checkWin(board, player1)) {
             return alert("Player 1 won!");
         } else if (checkDraw(board)) {
             return alert("It was a draw!");
         };
-        board = playerMove(board, player2, prompt(`${printableBoard(board)} Player 2 what is your move?`));
+        board = playerMove(board, player2, prompt(`${printableBoard(board)}Player 2 what is your move?`));
         if (checkWin(board, player2)) {
             return alert("Player 2 won!");
         } else if (checkDraw(board)) {
