@@ -28,24 +28,22 @@ x   -   -
 -   -   -
 -   -   -
 ```
-If then the next player inputs the number 7 then:
-```
-x   -   -
--   -   -
-o   -   -
+
+### Rows
+
 ```
 They are ordered logically with the first row being:
-```
+
 -   -   -
 1   2   3
-```
+
 The 2nd row:
-```
+
 -   -   -
 4   5   6
-```
+
 And the 3rd row:
-```
+
 -   -   -
 7   8   9
 ```
