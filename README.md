@@ -58,3 +58,4 @@ Thank you for playing or just stopping by to see it.
 
 - [ ] Make an HTML version instead of just using prompts
 - [ ] Make something that handles when you input an invalid number or a number that has already been used.
+- [ ] Make a function that gets the user input

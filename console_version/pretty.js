@@ -66,7 +66,6 @@
         };
         return res;
     };
-
     var board = createNewBoard();
     while (true) {
         board = playerMove(board, player1, prompt(`${printableBoard(board)} Player 1 what is your move?`));
