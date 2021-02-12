@@ -57,5 +57,7 @@ Thank you for playing or just stopping by to see it.
 ## To do list
 
 - [ ] Make an HTML version instead of just using prompts
-- [-] Make something that handles when you input an invalid number or a number that has already been used.
-- [-] Make a function that gets the user input
+- [ ] Customisable names instead of just "Player 1" and "Player 2", possibly tuples to also store the data for the "x" and "o".
+- [ ] Use emojis instead of "x" and "o"
+- [x] Make something that handles when you input an invalid number or a number that has already been used.
+- [x] Make a function that gets the user input
