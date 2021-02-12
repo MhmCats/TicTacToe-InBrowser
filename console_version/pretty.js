@@ -75,7 +75,7 @@
         return res;
     };
     function getUserInput(board, player) {
-        var input = prompt(`${printableBoard(board)}${player} what is your move?`);
+        var input = prompt(`${printableBoard(board)}${player} what is your move? (Type q to quit)`);
         var numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
         for (let value in numbers) {
             if (numbers[value] === input) {
@@ -84,7 +84,9 @@
                 continue;
             };
         };
-        console.log(input)
+        if (input === "q") {
+            throw new Error("Stop script");
+        }
         alert("Invalid Move!");
         return false;
     };

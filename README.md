@@ -53,11 +53,3 @@ And the 3rd row:
 If you find any bugs then make an issue to report it or a pull request if you think you have found a solution although I would rather that you tested out any solutions before you created a pull request.
 
 Thank you for playing or just stopping by to see it.
-
-## To do list
-
-- [ ] Make an HTML version instead of just using prompts
-- [ ] Customisable names instead of just "Player 1" and "Player 2", possibly tuples to also store the data for the "x" and "o".
-- [ ] Use emojis instead of "x" and "o"
-- [x] Make something that handles when you input an invalid number or a number that has already been used.
-- [x] Make a function that gets the user input
